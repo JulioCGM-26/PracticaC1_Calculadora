@@ -1,2 +1,3 @@
 # PracticaC1_Calculadora
 Ejemplo de calculadora para una práctica.
+Este proyecto es una calculadora muy simple que sirve para sumar dos números. En la página principal (index.html) el usuario escribe dos valores y presiona un botón para ver el resultado. El diseño y los colores de la calculadora están en el archivo estilos.css. La parte que hace que la calculadora funcione está dividida en dos archivos: logica.js, que toma los números escritos por el usuario y muestra el resultado, y datos.js, que realiza la suma. Todo está hecho con HTML, CSS y JavaScript, para mostrar de manera clara cómo se separan la interfaz, la lógica y los datos.
