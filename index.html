@@ -1,0 +1,41 @@
+<!-- CAPA DE PRESENTACIÓN -->
+<!-- Este programa muestra una calculadora básica que suma dos números.
+    El usuario escribe dos valores, presiona el botón "SUMAR" y se muestra el resultado. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capas</title>
+
+    <!-- Archivo de estilos externo -->
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <h1>Calculadora</h1>
+        <h2>Suma de dos números</h2>
+
+        <!-- Campos para ingresar los valores a sumar -->
+        <input type="number" id="num1" placeholder="Insertar número 1">
+        <input type="number" id="num2" placeholder="Insertar número 2">
+
+        <!-- Botón que ejecuta la función "sumar()" definida en el archivo logica.js.
+        Al hacer clic, se realiza la operación. -->
+        <button onclick="sumar()">SUMAR</button>
+
+        <!-- Párrafo donde se muestra el resultado final de la suma-->
+        <p id="resultado"></p>
+    </div>
+
+    <!-- Archivo con la función obtenerResul(), que realiza la suma -->
+    <script src="datos.js"></script>
+
+    <!-- Archivo con la función sumar(), que toma los valores num1 y num2 -->
+    <script src="logica.js"></script>
+
+</body>
+</html>
